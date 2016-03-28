@@ -1,9 +1,6 @@
-.idea/
-
-src/
-
-node_modules/
-
-.gitignore
-
-npm-debug.log
+/lib/main.css
+/.idea/
+/src/
+/node_modules/
+/.gitignore
+/npm-debug.log

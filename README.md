@@ -5,7 +5,7 @@
 
 ##### Also it's just beta, so design and function will be improved. Special thanks for the feedback and suggestions!
 
-This package allow you to start testing your application (client and server side), using popular tools mocha/cha/sinon and React testing utils in two step.
+This package allow you to start testing your application (client and server side), using popular tools mocha/chai/sinon and React testing utils in two step.
 All you need just...
 
 First, install package:

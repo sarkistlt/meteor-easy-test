@@ -22,6 +22,10 @@
   "author": {
     "name": "Sarkis Arutiunian"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarkistlt/meteor-easy-test.git"
+  },
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",

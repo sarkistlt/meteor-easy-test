@@ -1,0 +1,44 @@
+{
+  "name": "meteor-easy-test",
+  "version": "1.0.8",
+  "description": "DON'T USE! PACKAGE NOT READY YET!",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "meteor",
+    "react",
+    "testing",
+    "mocha",
+    "chai",
+    "sinon",
+    "meteor mocha",
+    "meteor TDD",
+    "meteor BDD",
+    "meteor test"
+  ],
+  "author": {
+    "name": "Sarkis Arutiunian"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "mocha-jsdom": "^1.1.0",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "react-addons-test-utils": "^0.14.7"
+  },
+  "readme": "README.md",
+  "_id": "meteor-easy-test@1.0.3",
+  "_shasum": "ef06131f758ed55e105dac521ea84f04babde1c8",
+  "_from": "meteor-easy-test@*",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}

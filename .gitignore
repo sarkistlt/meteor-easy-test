@@ -1,4 +1,5 @@
 .idea/
 src/
-/.gitignore
+/node_modules
+.gitignore
 npm-debug.log

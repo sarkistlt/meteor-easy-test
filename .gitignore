@@ -1,6 +1,6 @@
-/lib/main.css
-/.idea/
-/src/
-/node_modules/
-/.gitignore
-/npm-debug.log
+/
+    .git/
+    .gitignore
+    node_modules/
+    .idea/
+    src/

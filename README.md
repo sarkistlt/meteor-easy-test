@@ -27,9 +27,9 @@ This package allow you to start testing your application (client and server side
 
  - In file `test.jsx` first you have to import config:
 
-```
+~~~js
 import 'meteor-easy-test/config';
-```
+~~~
 
 
 
@@ -37,7 +37,7 @@ import 'meteor-easy-test/config';
 
 ----------
  Now you can start write your test right in this file, wrap it in function and export:
-```
+~~~js
 import 'meteor-easy-test/config';
 
 export default () => {
@@ -47,10 +47,10 @@ export default () => {
         });
     });
 };
-```
+~~~
 
 or:
-```
+~~~js
 import 'meteor-easy-test/config';
 
 export let testCase = () => {
@@ -60,11 +60,11 @@ export let testCase = () => {
         });
     });
 };
-```
+~~~
 
 even this will work:
 
-```
+~~~js
 import 'meteor-easy-test/config';
 
 export default () => {
@@ -81,7 +81,7 @@ export let testCase = () => {
         });
     });
 };
-```
+~~~
 but don't use this option :)
 
 
@@ -91,7 +91,7 @@ but don't use this option :)
 Also you can create different test cases in different file (but make sure that all file in folder `test` ), and just call them in `test.jsx`.
  
 `first-case.jsx`:
-```
+~~~js
  export default testCase = () => {
      describe("my test case", function () {
          it("my test", function () {
@@ -99,24 +99,23 @@ Also you can create different test cases in different file (but make sure that a
          });
      });
  }();
-```
+~~~
  
 `test.jsx`:
-```
+~~~js
  import 'meteor-easy-test/config';
  
  import testCase from './first-case';
  import anotherCase from './another-case'; // the number of cases is not limited
  
  export {testCase, anotherCase};
- 
-```
+~~~
 
 
 To show test result you should add React component in your application. To do that just import component `<TestBord />` and mount wherever you want.
-```
+~~~js
 import TestBord from 'meteor-easy-test';
-```
+~~~
 
 
 ----------

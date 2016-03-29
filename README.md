@@ -15,7 +15,9 @@ This package allow you to start testing your application (client and server side
 
  - first, install package:
 
-> npm i meteor-easy-test
+~~~shell
+npm i meteor-easy-test
+~~~
 
  - second, create folder in root:
 

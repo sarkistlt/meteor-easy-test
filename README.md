@@ -1,6 +1,6 @@
 # Meteor-easy-test (beta)
 
-This package allow you to start testing your application (client and server side), using popular tools mocha/chai/sinon and React testing utils in few step.
+This package allows you to start testing your application (client and server side), using popular tools mocha/chai/sinon and React testing utils in few step.
 
 ----------
 **note:**
@@ -23,11 +23,11 @@ npm i meteor-easy-test
 
 > /test
 
- - and file:
+ - then create the file:
 
 > /test/test.jsx
 
- - In file `test.jsx` first you have to import config:
+ - In the file `test.jsx` first you have to import config:
 
 ~~~js
 import 'meteor-easy-test/config';
@@ -38,7 +38,7 @@ import 'meteor-easy-test/config';
 **That's it!**
 
 ----------
- Now you can start write your test right in this file, wrap it in function and export:
+ Now you can start to write your test right inside this file, wrap it in function and export:
 ~~~js
 import 'meteor-easy-test/config';
 
@@ -64,7 +64,7 @@ export let testCase = () => {
 };
 ~~~
 
-even this will work:
+this will even work:
 
 ~~~js
 import 'meteor-easy-test/config';
@@ -90,7 +90,7 @@ but don't use this option :)
 ----------
 
 
-Also you can create different test cases in different file (but make sure that all file in folder `test` ), and just call them in `test.jsx`.
+You can create different test cases in different file (but make sure that all files are in folder `test` ), and just call them in `test.jsx`.
  
 `first-case.jsx`:
 ~~~js
@@ -121,5 +121,5 @@ import TestBord from 'meteor-easy-test';
 
 
 ----------
-**Thanks for attention) hope the package was helpful for you!**
+**Thank you for your attention) hope this package was helpful for you!**
 ***p.s. star to be notified***

@@ -1,7 +1,7 @@
 {
   "name": "meteor-easy-test",
   "version": "1.0.12",
-  "description": "package for fast start testing your Meteor app. with (mocha/chai/sinon and React test utils) in two step.",
+  "description": "Fast start testing your Meteor app. with (mocha/chai/sinon and React test utils). Follow on GitHub to be notified.",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir lib",
@@ -11,6 +11,9 @@
     "meteor",
     "react",
     "testing",
+    "test",
+    "bdd",
+    "tdd",
     "mocha",
     "chai",
     "sinon",

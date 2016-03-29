@@ -1,34 +1,42 @@
-# Meteor-easy-test (beta, tested on  Meteor 1.3, with React)
+# Meteor-easy-test (beta)
 
-### requirement:
-- React instead of Blaze.
+This package allow you to start testing your application (client and server side), using popular tools mocha/chai/sinon and React testing utils in few step.
 
-##### Also it's just beta, so design and function will be improved. Special thanks for the feedback and suggestions!
+----------
+**note:**
+- use React instead of Blaze.
+- tested on  Meteor 1.3, with React.
 
-This package allow you to start testing your application (client and server side), using popular tools mocha/chai/sinon and React testing utils in two step.
-All you need just...
+***It's just beta, so design and function will be improved.*** 
+***Special thanks for the feedback and suggestions!***
 
-First, install package:
-`npm i meteor-easy-test`
+----------
+**How to start.**
 
-And second, create in root folder:
+ - first, install package:
 
-```
-/test
-```
+> npm i meteor-easy-test
 
-and file:
-```
-/test/test.jsx
-```
+ - second, create folder in root:
 
-In file `test.jsx` first you have to import config:
+> /test
+
+ - and file:
+
+> /test/test.jsx
+
+ - In file `test.jsx` first you have to import config:
 
 ```
 import 'meteor-easy-test/config';
 ```
 
-And that's it. Now you can start write your test right in this file, wrap it in function and export:
+
+
+**That's it!**
+
+----------
+ Now you can start write your test right in this file, wrap it in function and export:
 ```
 import 'meteor-easy-test/config';
 
@@ -77,6 +85,9 @@ export let testCase = () => {
 but don't use this option :)
 
 
+----------
+
+
 Also you can create different test cases in different file (but make sure that all file in folder `test` ), and just call them in `test.jsx`.
  
 `first-case.jsx`:
@@ -106,3 +117,8 @@ To show test result you should add React component in your application. To do th
 ```
 import TestBord from 'meteor-easy-test';
 ```
+
+
+----------
+**Thanks for attention) hope the package was helpful for you!**
+***p.s. star to be notified***
